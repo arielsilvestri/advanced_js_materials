@@ -20,11 +20,11 @@
 What happens:
 
 Declaration:
--Hey Global Scope, I have a variable `foo` to declare.
--Hey Global Scope, I have a function `bar()` to declare.
--Hey Function Bar Scope, I have a variable `foo` to declare.
--Hey Function Bar Scope, I have a function `baz()` to declare.
--Hey Function Baz Scope, I have a parameter `foo` to declare.
+- Hey Global Scope, I have a variable `foo` to declare.
+- Hey Global Scope, I have a function `bar()` to declare.
+- Hey Function Bar Scope, I have a variable `foo` to declare.
+- Hey Function Bar Scope, I have a function `baz()` to declare.
+- Hey Function Baz Scope, I have a parameter `foo` to declare.
 
 
 Execution:
