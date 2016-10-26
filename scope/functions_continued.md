@@ -1,3 +1,4 @@
+##Function Declaration vs. Expression
 ```javascript
   var foo = function bar() {
     var foo = "baz";
@@ -23,6 +24,7 @@ Why do we name our functions? Anon functions have three major negatives:
 
 The line `foo()` will execute the function as written, once it is compiled.
 
+##Block Scope
 ```javascript
   var foo;
 
