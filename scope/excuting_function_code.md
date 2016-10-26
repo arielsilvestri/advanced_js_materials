@@ -13,9 +13,9 @@ function baz(foo) {
   bam = "yay";
 }
 ```
-In our function declaration, our compiler will ask if it has heard of the parameter 'foo', and it will respond yes. However, on the next line, when we ask the compiler if it has an LHS for `foo` in the function scope, the answer is no. Now, the compiler goes into the global scope to find it. The global scope is the final scope where the compiler looks.
+In our function declaration, our compiler will ask if it has heard of the parameter `foo`, and it will respond yes. However, on the next line, when we ask the compiler if it has an LHS for `foo` in the function scope, the answer is no. Now, the compiler goes into the global scope to find it. The global scope is the final scope where the compiler looks.
 
 In essence, we have declared a variable in the global scope while inside a function scope. In `strict mode`, the compiler will throw an error instead of defining the variable in the global scope.
 
-The same is true for the LHS of '"yay"' in this function.
+The same is true for the LHS of `bam` in this function.
 
