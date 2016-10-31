@@ -7,3 +7,4 @@ This repo includes:
 - [Function Declarations, Expressions, and Block Scope](./functions_continued.md)
 - [Lexical Scope and How To Cheat It](./lexical_scope.md)
 - [Immediately Invoked Function Expression](./iife.md)
+- ["Let" Keyword](./let.md)
