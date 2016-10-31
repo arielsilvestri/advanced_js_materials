@@ -46,15 +46,15 @@ var bar = "bar"
 var baz = new foo(); // ???
 ```
 - Four things occur when `new` is placed in front of a function call:
-1) A brand-new empty object is created.
-2) This new object gets linked to a different object.
-3) This new object is bound to `this`.
-4) If that function doesn't return anything, it will implicitly `return this` into its function call.
+1. A brand-new empty object is created.
+2. This new object gets linked to a different object.
+3. This new object is bound to `this`.
+4. If that function doesn't return anything, it will implicitly `return this` into its function call.
 
 - The above code will print "undefined undefined", as there is no `this.bar` based on these rules, since `this` is `foo`. `Baz` doesn't exist anywhere, so it is also undefined.
 
 ## The Four Golden Questions of `this`
-1) Was the function called with `new`? Use that object.
-2) Was the function called with `call` or `apply` specifiy an explicit `this`? Use that object.
-3) Was the function called via a containing/owning object (context)? Use that object.
-4) Default to the global object.
+1. Was the function called with `new`? Use that object.
+2. Was the function called with `call` or `apply` specifiy an explicit `this`? Use that object.
+3. Was the function called via a containing/owning object (context)? Use that object.
+4. Default to the global object.
