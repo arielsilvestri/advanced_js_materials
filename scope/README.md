@@ -9,3 +9,4 @@ This repo includes:
 - [Immediately Invoked Function Expression](./iife.md)
 - ["Let" Keyword](./let.md)
 - [Dynamic Scoping](./dynamic_scope.md)
+- [Hoisting](./hoisting.md)
