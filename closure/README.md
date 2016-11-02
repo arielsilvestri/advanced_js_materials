@@ -2,4 +2,5 @@
 This repo includes:
 
 - [Closure Basics](./closures.md)
-- [Closures in Practice](./canonical_closure.md)
+- [Closure in Loops](./loops.md)
+- [Module Patterns](./module_patterns.md)
