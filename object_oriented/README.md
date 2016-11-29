@@ -5,3 +5,4 @@ This repo includes lessons on:
 - [Prototypes](./prototypes.md)
 - [Prototype Linkages](./prototype_linkages.md)
 - [Linking Objects](./linking_objects.md)
+- [Inheritance & OLOO](./inheritance_oloo.md)
