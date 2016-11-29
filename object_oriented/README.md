@@ -6,3 +6,4 @@ This repo includes lessons on:
 - [Prototype Linkages](./prototype_linkages.md)
 - [Linking Objects](./linking_objects.md)
 - [Inheritance & OLOO](./inheritance_oloo.md)
+- [Example of OLOO design](./oloo_example.md)
