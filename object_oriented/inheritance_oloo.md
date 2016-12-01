@@ -16,7 +16,7 @@ var Foo = {
   identify: function() {
     return "I am " + this.me;
   }
-}l
+};
 
 var Bar = Object.create(Foo);
 
