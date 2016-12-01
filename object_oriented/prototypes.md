@@ -28,7 +28,6 @@
 - Here is how the compiler inteprets this code:
 - Before anything even happens, a function called `Object` is created. Linked to that function is an object with common JavaScript functions attached, and the link to that object is called `Object.prototype`.
 
-**BEGIN EXECUTION OF CODE**
 1. Line 1 will create a function, `Foo`, and a link called `.prototype` to an object. 
 The link here is a two-way one-the object has a link to `Foo` called `constructor`. That object is linked to `Object`'s object., and that link is referred to as `[[Prototype]]`
 2. On Line 4, we add an `identify` function into the objected linked to `Foo`.
