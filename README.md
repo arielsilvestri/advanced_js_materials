@@ -1,5 +1,5 @@
 #Advanced JavaScript Lessons
-This repo contains information pertaining to my deep-dive into JavaScript learnings.
+This repo contains information pertaining to my deep-dive into JavaScript learnings, taken from [this video series]( https://frontendmasters.com/courses/advanced-javascript/).
 
 ##[An In-Depth Look At Scope](./scope)
 ##[An Examination of Closures](./closure)
